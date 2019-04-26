@@ -1,0 +1,191 @@
+{основной шрифт}
+body td {
+	color				: #ffffff;
+	font-family			: tahoma;
+	font-size			: 9pt;
+	}
+
+{отступы тэга form}
+form 	{ 
+	margin				: 0px; 
+	}
+
+{основные цвета}
+body 	{
+	color				: #ffffff;
+	font-family			: tahoma;
+	font-size			: 9pt;
+	background-color		: #010101;
+	background-attachment		: fixed;
+	background-image		: url(../img/bc.jpg);
+	background-repeat		: no-repeat;
+	background-position		: center;
+	}
+
+tr.row: hover 
+	{
+	background-color		: #ffffff;
+	}
+
+tr.row td: hover {
+	background-color		: #ffffff;
+	}
+
+{заголовок таблицы ботов}
+th 	{
+	background-color		: #121212;
+	height				: 20px;
+	font-size			: 9pt;
+	font-weight			: bold;
+	border				: 0px;
+	}
+
+{таблицы}
+td 	{
+	font-size			: 9pt;
+	margin				: 0px; 
+	padding				: 0px;
+	}
+
+legend  
+	{ 
+	font-family			: tahoma;
+	font-size			: 9pt;
+	color				: #ffffff;
+	}
+
+fieldset 
+	{
+	width				: 90%;
+	border				: solid 0px;
+	}
+
+input, select 
+	{
+	height				: 20px;
+	font-size			: 9pt;
+	font-family			: tahoma;
+	}
+
+textarea 
+	{
+	height				: 200px;
+	font-size			: 9pt;
+	font-family			: tahoma;
+	}
+
+{левое поле с подсказками}
+.left   
+	{
+	background-color		: #121212;
+	height				: 16px;
+	font-size			: 9pt;
+	text-align			: left;
+	margin-left			: 5px;
+	}
+
+{правое поле с подсказками}
+.right  
+	{
+	background-color		: #121212;
+	height				: 16px;
+	font-size			: 9pt;
+	margin-left			: 5px;
+	}
+
+{поле ввода команды}
+.m1 	
+	{
+	height				: 20px;
+	border				: solid #ffffff 1px;
+	background-color		: #121212;
+	color				: #ffffff;
+	margin				: 0px; 
+	}
+
+
+{поля ввода логина и пароля}
+.m4
+	{
+	border				: 1px solid #ffffff;
+	background-color		: #121212;
+	color				: #ffffff;
+	width				: 190pt;
+	height				: 26px;
+	margin				: 0px; 
+	font-size			: 11pt;
+	}
+
+a
+	{
+	color				: #ffffff;
+	font-family			: tahoma;
+	text-decoration			: none;
+	}
+
+a:hover
+	{
+	color				: #ffffff;
+	text-decoration			: underline;
+	}
+
+
+
+.list 	
+	{
+	text-align			: center;
+	vertical-align			: middle;
+	}
+
+tr.row	
+	{
+	background-color		: #ffffff;
+	text-align			: center;
+	vertical-align			: middle;
+	}
+
+{кнопки логина и отправки команды}
+.cssbutton 
+	{
+	cursor				: pointer;
+	color				: #ffffff;
+	background			: #161616;
+	font-family			: tahoma;
+	border				: 1px solid #ffffff;
+	margin				: 0px; 
+	}
+
+
+{основные кнопки}
+.navigation a:link, 
+.navigation a:visited, 
+.navigation a:hover, 
+.navigation a:active 
+
+
+	{
+	text-decoration 		: none;
+	color 				: #FFFFFF;
+	background 			: #121212;
+	border 				: 1px solid #ffffff;
+	padding 			: 3px 6px;
+	font-size 			: 10pt;
+	}
+
+{выделенные кнопки}
+.navigation a:hover 
+	{
+	background			: #303030;
+	color				: #ffffff;
+	border-color			: #ffffff;
+	}
+
+{кнопки навигации по страницам}
+.navigation span 
+        {
+	text-decoration 		: none;
+	background 			: #121212;
+	padding 			: 3px 6px;
+	border 				: 1px solid #ffffff;
+	font-size 			: 9pt;
+        }

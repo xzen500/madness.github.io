@@ -1,0 +1,20 @@
+Installation
+
+1. upload all files to your server.
+
+2. mainfile: index.php (you can change name).
+
+3. Create SQL DataBase in your hosting
+
+4. set DataBase name, login and password in configuration file: inc/config.php
+
+5. set CHMOD 666 in: inc/config.php
+
+6. welcome to Madness control panel in: http://your_domain/adm/index.php
+
+default administrator account:
+
+login: madness
+password: madness
+
+you can change this (and othner options) in: inc/config.php
